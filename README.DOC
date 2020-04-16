@@ -1,0 +1,21 @@
+This is a wordpress plugin setup to enable protected areas within content.
+
+The sections can be protected by the following methods:
+
+Using a password
+Based on user level
+
+This will use shortcodes.
+
+Admins can see the sections without the password.
+
+Shortcode parameters:
+
+usepass = yes / no (if you want to use a password to protect this section. Default: no)
+uselevels = yes / no (if you want to enable this section for specific user levels. Default: no)
+password = "12345" (add your password here to unlock the protected section. Default: "")
+levels = "subscriber, contributor" (add the levels which can see this section. Default: "")
+
+Eg:
+
+[wpsectionpass usepass=yes uselevels=yes password="" levels=""]
