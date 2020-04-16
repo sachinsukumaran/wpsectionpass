@@ -19,3 +19,9 @@ levels = "subscriber, contributor" (add the levels which can see this section. D
 Eg:
 
 [wpsectionpass usepass=yes uselevels=yes password="" levels=""]
+
+
+To Do:
+
+Before releasing to live - *** IMPORTANT ***
+  - Remove the 'wpsp_do_something' function from index.php. This is kept in there only for troubleshooting
