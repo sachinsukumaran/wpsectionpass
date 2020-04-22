@@ -1,12 +1,13 @@
 <?php
 /*
-class file
-includes functions to process the shortcode
+This is the settings page. This should be made available only if you're the admin.
+
+Used to give general info on how to use this plugin.
 */
 
-if(!class_exists('wpsp_processShortcode')){
+if(!class_exists('wpsp_pluginSettings')){
 
-  class wpsp_processShortcode{
+  class wpsp_pluginSettings{
 
     public static function init(){
       register_setting('wpsp_testSetting', 'wpsp_option_testSetting');
@@ -19,6 +20,7 @@ if(!class_exists('wpsp_processShortcode')){
   }
   wpsp_processShortcode::init();
   wpsp_processShortcode::getTestSetting();
+
 }
 
-?>
+ ?>

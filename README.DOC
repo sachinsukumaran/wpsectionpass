@@ -4,6 +4,7 @@ The sections can be protected by the following methods:
 
 Using a password
 Based on user level
+Access based on payment (like in a membership, or for a pro version)
 
 This will use shortcodes.
 
@@ -20,8 +21,11 @@ Eg:
 
 [wpsectionpass usepass=yes uselevels=yes password="" levels=""]
 
+Credits and Thanks: This plugin used Devin Vinson's "WordPress Plugin Boilerplate".
 
 To Do:
+- Move everything from index.php to wpsectionpass
+- Rename folder and file name of "wpsectionpass" to "wpsectionprotect"
 
 Before releasing to live - *** IMPORTANT ***
   - Remove the 'wpsp_do_something' function from index.php. This is kept in there only for troubleshooting
