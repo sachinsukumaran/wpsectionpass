@@ -20,7 +20,7 @@
  * Author URI:        https://wireplugged.com/home/
  * License:           GPL-2.0+
  * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
- * Text Domain:       wpsp_protect
+ * Text Domain:       wpsp_section_protect
  * Domain Path:       /languages
  */
 
@@ -36,7 +36,7 @@
  */
  function activate_wpsp_protect() {
  	require_once plugin_dir_path( __FILE__ ) . 'includes/class-wpspp-activator.php';
- 	Plugin_Name_Activator::activate();
+ 	wpsp_plugin_activator::activate();
  }
 
  /*
@@ -44,7 +44,7 @@
  */
  function deactivate_wpsp_protect() {
   require_once plugin_dir_path( __FILE__ ) . 'includes/class-wpspp-deactivator.php';
-  Plugin_Name_Deactivator::deactivate();
+  wpsp_plugin_deactivator::deactivate();
  }
 
  register_activation_hook(__FILE__, 'activate_wpsp_protect');
