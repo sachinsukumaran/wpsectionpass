@@ -55,7 +55,7 @@
   * admin-specific hooks, and public-facing site hooks.
   */
 
-  require plugin_dir_path(__FILE__).'inc/class-wpsectionprotect.php';
+  require plugin_dir_path(__FILE__).'includes/class-wpsectionprotect.php';
 
   /**
    * Begins execution of the plugin.
