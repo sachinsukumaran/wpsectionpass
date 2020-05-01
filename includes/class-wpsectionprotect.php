@@ -18,8 +18,8 @@ if(!class_exists('wpsp_pluginSettings')){
     }
 
   }
-  wpsp_processShortcode::init();
-  wpsp_processShortcode::getTestSetting();
+  wpsp_pluginSettings::init();
+  wpsp_pluginSettings::getTestSetting();
 
 }
 
